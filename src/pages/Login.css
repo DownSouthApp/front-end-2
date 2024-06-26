@@ -1,0 +1,58 @@
+/* Add this CSS to your Login.css file */
+
+input[type="text"],
+input[type="password"],
+input[type="tel"],
+input[type="email"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  background: none;
+  border-bottom: 1px solid #030000;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="tel"]:focus,
+input[type="email"]:focus {
+  outline: none;
+}
+
+.form-label input[type="text"]:focus,
+.form-label input[type="password"]:focus,
+.form-label input[type="tel"]:focus,
+.form-label input[type="email"]:focus {
+  border-bottom-color: #17e8f0; /* Change to your desired focus color */
+}
+
+
+.login{
+    margin-left: 500px;
+    margin-top: 150px;
+}
+
+.login-text{
+    margin-top: -650px;
+    margin-left: 600px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    text-decoration: underline; 
+}
+
+.login-text1{
+  margin-top: -50px;
+  margin-left: 570px;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', sans-serif;
+}
+
+
+.login-container{
+  height: 500px;
+  width: 500px;
+  background-color: transparent;
+  border: 1px solid #0a0a0a;
+  margin-top: -100px;
+
+}

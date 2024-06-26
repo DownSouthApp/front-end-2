@@ -1,0 +1,117 @@
+body {
+    text-align: left;
+    background-color:white ; 
+    background-position: center center;
+    height: 100vh;
+    background-size: 100px;
+    margin-left: 50px; /* Remove margin to ensure full coverage */
+  }
+
+  .image-container {
+    position: absolute;
+    top: -10px;
+   margin-left: 800px;
+    margin-top: 100px;
+    
+    
+  }
+  
+  .corner-image1 {
+    width: 250px; 
+    height: 245px;
+    border-radius: 5px; 
+    border: none; 
+    
+    margin-left: -100px;
+  }
+
+  .form-label-1 {
+    display: inline-block;
+    width: 150px; /* Set a fixed width for labels */
+    text-align: left;
+    padding-right: 15px; /* Add some spacing between label and input */
+    color: black;
+    font-weight: bold;
+    margin-bottom: 8px; /* Optional: Add some spacing between labels */
+  }
+  
+  .form-control{
+    display: inline-block;
+    width: 300px; /* Set a fixed width for input fields */
+    box-sizing: border-box;
+    border: 1px solid #a5a5a5;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px; /* Optional: Add some spacing between input fields */
+  }
+  
+  .Reg {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+  }
+  
+
+  .submitbutton {
+    background-color: #fff;
+    color: #6fa8dc;
+    padding: 1px 10px;
+    border: 1px solid #6fa8dc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    height: 30px;
+    width: 88px;
+    
+  }
+  .submitbutton:hover {
+    background-color: #0287f313;
+  }
+  
+
+  .subtext1 {
+    font-weight: normal;
+    color:  #00040c ; /* Ash color */
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    margin-left: 800px;
+    margin-top: 50px;
+    opacity: 1;
+    
+  }
+  
+  .subtext {
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    margin-top: -400px;
+    margin-left: 825px;
+    opacity: 1;
+  }
+.form-control-wrapper{
+  margin-top: 55px;
+}
+
+.google-button{
+  background-color: #fff;
+  color: #01070e;
+  padding: 1px 10px;
+  border: 1px solid #6fa8dc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  height: 30px;
+  width: 200px;
+  margin-left: 50px;
+}
+
+.google-icon-container {
+  display: inline-block;
+  background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.google-icon {
+  font-size: 20px; /* Adjust the font size as needed */
+}

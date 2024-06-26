@@ -1,0 +1,142 @@
+/* T_Home.css */
+
+.layout {
+    display: flex;
+    
+    height: 1000px;
+  }
+  
+  .sidebar {
+    width: 0;
+    height: 100vh;
+    background-color: #333;
+    overflow-x: hidden;
+    position: fixed;
+    transition: 0.3s;
+    padding-top: 60px;
+    margin-left: -50px;
+  }
+  
+  .sidebar.open {
+    width: 250px;
+  }
+  
+  .sidebar .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .sidebar nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar nav ul li {
+    padding: 8px 8px 8px 32px;
+    text-align: left;
+  }
+  
+  .sidebar nav ul li .nav-link {
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar nav ul li .nav-link:hover {
+    color: #f1f1f1;
+  }
+  
+  .content1 {
+    margin-left: 50px;
+    transition: margin-left 0.3s;
+    width: 100%;
+    padding: 16px;
+    margin-right: 680px;
+  }
+  
+  .content1.shift {
+    margin-left: 250px;
+  }
+  
+  .content3 {
+    margin-left: -550px;
+    margin-top: 49px;
+    width: 100%;
+    margin-right: 50px;
+    
+    text-align: center;
+  }
+
+  .open-btn {
+    font-size: 30px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    margin: 10px;
+    
+  }
+  
+  .profile-box1 {
+    background-color: #c2d6d5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    
+  }
+  
+  .avatar {
+    margin-bottom: 20px;
+  }
+  
+  .avatar img {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .info-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .info-item {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .title1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  .aplist{
+   font-weight: bold;
+  }
+
+  .black-font {
+    color: black;
+    text-align: left;
+  }
+  .past:hover {
+    background-color: #f1caccc7; /* Light gray background on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+  }
+  

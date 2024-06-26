@@ -1,0 +1,188 @@
+.srch-text {
+    position: absolute;
+   
+    transform: translate(-50%, -50%);
+    background-color: transparent; 
+    color: black; 
+    padding: 5px; 
+    font-size: 35px;
+    margin-left:600px;
+    margin-top: 60px;
+    font-weight: bold;
+    align-items: left;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+  }
+
+  .srchbar {
+    position: absolute;
+    margin-left: 780px;
+    margin-top: 270px;
+    border: 1px solid #180101;
+    
+    width: 400px;
+    height: 48px;
+  }
+  
+  .search-input {
+    border: none; /* Remove default border */
+    border-radius: 40px; /* Rounded corners */
+    padding: 15px 40px; /* Add padding for better appearance */
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 0 1px #fff inset; /* Add a thin white border to mimic the border */
+    background-color: transparent; /* Transparent background */
+    color: #180101; /* Text color */
+  }
+  
+  
+  .search-button {
+    position: absolute;
+    top: 155px; /* Adjust as needed */
+    left: 730px; /* Adjust as needed */
+    width: 40px;
+    height: 40px;
+}
+
+
+  
+  .search-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: white;
+    
+    margin-top: 140px; /* Adjust as needed */
+    margin-left: 410px; 
+
+
+
+  }
+ 
+   
+
+
+
+
+  .content-search{
+   
+    margin-top: 300px;
+  }
+
+
+  
+  
+  .small-rectangle1 {
+    width: 100px;
+    height: 50px;
+    background-color: #333; 
+    position: absolute; 
+    top: 80px; 
+    margin-left: 780px;
+    margin-top: 130px;
+    
+    border: 1px solid #180101;
+  }
+  
+  .small-rectangle1 p {
+    margin: 0;
+    font-size: 18px; 
+    color: rgb(13, 193, 224);
+    margin-left: 13px;
+    margin-top: 10px;
+  }
+  
+  
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .search-bar input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 0px;
+    font-size: 16px;
+    margin-right: 20px; 
+  }
+  
+  .search-bar select {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 0px;
+    font-size: 16px;
+    background-color: white;
+  }
+  
+  .small-rectangle2 {
+    width: 100px;
+    height: 50px;
+    background-color: #333; 
+    position: absolute; 
+    top: 80px; 
+    margin-left: 1078px;
+    margin-top: 130px;
+    
+    border: 1px solid #180101;
+  }
+  
+  .small-rectangle2 p {
+    margin: 0;
+    font-size: 18px;
+    color: rgba(13, 192, 224, 0.959);
+    margin-left: 18px;
+    margin-top: 10px;
+  }
+  
+  
+  .search-container{
+    margin-top: -330px;
+   margin-left: -100px;
+    
+  }
+
+
+  .fort-img {
+    width: 50%; /* Set the width to half of the page */
+    float: left; /* Float the image to the left */
+    margin-right: 350px; /* Optional: add some margin for spacing */
+  }
+  
+
+  
+
+.square-text1{
+  font-size: 30px;
+  color: rgb(7, 7, 7);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 350px;
+  margin-left: 780px;
+}
+
+
+
+
+.map-button {
+  position: relative;
+}
+
+.arrow-icon {
+  position: absolute;
+  top: 50%;
+  right: 30px; /* Adjust the positioning as needed */
+  transform: translateY(-50%);
+  animation: moveArrow 0.5s infinite alternate; /* Apply the animation */
+}
+
+@keyframes moveArrow {
+  0% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(-50%) translateX(5px); /* Adjust the distance to move */
+  }
+}

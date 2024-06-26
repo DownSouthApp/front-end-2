@@ -1,0 +1,92 @@
+.image-container6 {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    border-radius: 5px;
+  }
+  
+  .image-card {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 0 20px; /* Reduced the margin to center the cards */
+    padding: 0; /* Removed padding to prevent extra space */
+  
+    /* Added neumorphism effect */
+    background-color: #f0f0f0;
+    box-shadow: 5px 5px 15px #d0d0d0, -5px -5px 15px #ffffff;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .image-card:hover {
+    transform: translate(5px, 5px);
+    box-shadow: 10px 10px 20px #d0d0d0, -10px -10px 20px #ffffff;
+  }
+  
+  .image-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire card */
+    opacity: 0.7;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .overlay-text p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .overlay-text .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #6fa8dc;
+    border: 1px solid #6fa8dc;
+    border-radius: 5px;
+    text-decoration: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+    margin-top: 200px; /* Add space above the button */
+  }
+  
+  
+  .image-card:hover .overlay-text,
+  .image-card:hover .btn {
+    opacity: 1;
+  }
+  
+  .image-text-on {
+    position: absolute;
+    top: 21%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1; /* to ensure it's on top of other content */
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  
+  .logo-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -241px;
+    margin-left: 210px;
+    color:#4b7bff;
+    
+  }
+  
+  
